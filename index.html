@@ -12,6 +12,9 @@
 		<ul>
 			<li v-for="thing in things">{{ thing }}</li>
 		</ul>
+		<hr>
+		<h2>And here they are again presented using a component:</h2>
+		<thing v-for="thing in things" v-bind:key="thing" :keyword="thing"></thing>
 	</div>
 	
 	<script src="//unpkg.com/vue"></script>

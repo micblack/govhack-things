@@ -7,7 +7,7 @@ const vm = new window.Vue({
 	el: '#app',
 
 	components: {
-		'my-component': load('my-component'),
+		'thing': load('thing'),
 	},
 
 	data() {
